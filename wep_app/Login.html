@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Form</title>
     <link rel="stylesheet" href="style/style.css">
-    <script src="js/login.js" defer></script>
+    <script src="js/Login.js" defer></script>
 </head>
 <body>
     <div class="container">
     </div>
     <div class="loginContainer">
         <h2>Login</h2>
-        <form id="loginForm">
+        <form id="loginForm" method="post">
             <div class="form-group">
                 <label for="username">Username:</label>
                 <input type="text" id="username" name="username" required>
@@ -25,10 +25,9 @@
             <br/><br/>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="Register.html" style="color: rgb(4, 94, 4);"> If you don't have an account, Register</a>
+            <a href="Register.html" style="color: rgb(150, 11, 11);"> If you don't have an account, Register</a>
         </form>
         <p id="message"> </p>
     </div>
 </body>
-
 </html>
