@@ -12,5 +12,5 @@ for(let i = 0; i<array_.length; i++){
 */
 
 array_.forEach(element => {
-    console.log( element)
+    console.log(element)
 });
