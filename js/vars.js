@@ -1,5 +1,3 @@
-
-
 /**
  * 
  * In JavaScript variable are used to store the value 

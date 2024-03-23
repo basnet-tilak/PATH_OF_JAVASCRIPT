@@ -15,4 +15,6 @@ console.log(Math.min.apply(null, array_number));  //find the min number from the
 console.log(Math.max.apply(null, array_number)); //find the max number from the array
 
 const newReversed_ = array_number.toReversed();  // return the reverse value of the array
+const newReversedString = array_string.toReversed() // reverse the value of the array of type String also
 console.log(newReversed_);
+console.log(newReversedString);

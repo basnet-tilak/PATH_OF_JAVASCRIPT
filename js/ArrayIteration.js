@@ -9,7 +9,6 @@ const newArrayReduce_ = array_.reduce((total, value, index, array_) =>{
     return total + value;
 });                                         // sum of all element in array
 
-
 console.log(newArray_);
 console.log(newArray_2);
 console.log(newArrayReduce_);
