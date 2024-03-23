@@ -25,3 +25,8 @@ for(let i = 0;  i<fullName.length; i++){
 }
 
 console.log('Reverse of '+ `'${fullName}' ` + 'is ' + arrayStringOfChar.toReversed(arrayStringOfChar).join().replaceAll(',',''))
+
+
+for(let i  in array_){
+    console.log(i)
+}
