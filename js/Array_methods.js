@@ -10,7 +10,6 @@ console.log("This is join metho of array: -> "+array_w.join()); //Tilak,Kshitish
 
 array_w.push("Royal");
 console.log(array_w.join()); //Tilak,Kshitish,Him,Shubham,Sujan,Devil,Royal
-array_w.pop()                // remove the end of the element
+array_w.pop()                //Remove the end of the element
 console.log(array_w.join()); 
-
 console.log(array_x.sort());
