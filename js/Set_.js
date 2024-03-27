@@ -9,7 +9,7 @@ set_.add(5);
 set_.add(6);
 set_.add(6);
 
-//onsole.log(set_)
+//console.log(set_)
 
 set_.forEach((e) =>{
     console.log(e);

@@ -20,6 +20,5 @@ fruits.forEach((value, key) => {
     console.log(key + ' ' + value);
 });
 
-
 console.log(fruits.entries())      // Entires key and value will read
 
